@@ -1,0 +1,21 @@
+# Private term list for scripts/check-sensitive.sh — never commit
+.sensitive-terms
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Local Claude Code settings and real projects
+.claude/settings.local.json
+claude-code/.claude/settings.local.json
+projects/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
